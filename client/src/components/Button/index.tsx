@@ -6,7 +6,7 @@ interface ButtonProps {
 const Button = ({ children, onClick }: ButtonProps) => {
 	return (
 		<button
-			className='bg-indigo-600 px-5 py-3 text-sm text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+			className='bg-indigo-600 px-4 py-2 text-sm text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
 			onClick={onClick}
 		>
 			{children}
